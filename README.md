@@ -81,8 +81,8 @@ Make sure you have installed:
 
 ###  Clone the Repository
 
-git clone https://github.com/georgecosta28/risk_assessment_tool.git
-cd risk_assessment_tool
+git clone https://github.com/georgecosta28/RiskAssessmentTool
+cd RiskAssessmentTool
 
 ### Backend 
 cd backend
