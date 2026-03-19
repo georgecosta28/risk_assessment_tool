@@ -29,10 +29,9 @@ The application follows a **client-server architecture**:
 
 ## Repository Structure
 risk_assessment_tool/
-│
-├── backend/ # Flask API, business logic, and database handling
-├── frontend/ # React user interface
-└── README.md
+backend/ # Flask API, business logic, and database handling
+frontend/ # React user interface
+README.md
 
 
 ---
@@ -87,8 +86,11 @@ cd risk_assessment_tool
 
 ### Backend 
 cd backend
+
 pip install -r requirements.txt
+
 python init_db.py
+
 python app.py
 
 ### The backend will run on:
@@ -100,8 +102,11 @@ http://localhost:5000
 Open a new terminal:
 
 cd frontend
+
 npm install
+
 Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
+
 npm start
 
 ### The frontend will run on:
@@ -112,5 +117,3 @@ http://localhost:3000
 Author
 
 George Costa
-Master Thesis: Cybersecurity Risk Assessment for SMEs
-European University of Cyprus
